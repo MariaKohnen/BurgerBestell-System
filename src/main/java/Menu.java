@@ -8,6 +8,17 @@ public class Menu {
     Menu() {
     }
 
+    @Override
+    public String toString() {
+        return "Menu{" +
+                "menuName='" + menuName + '\'' +
+                ", price=" + price +
+                ", mainDish='" + mainDish + '\'' +
+                ", sideDish='" + sideDish + '\'' +
+                ", beverage='" + beverage + '\'' +
+                '}';
+    }
+
     Menu(String menuName,
          double price,
          String mainDish,
